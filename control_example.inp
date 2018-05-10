@@ -1,0 +1,7 @@
+directory    (txt): /dls/i24/data/2018/cm19649-2
+subdir       (txt): quickshot
+filename     (fid): shot8
+num_imgs       (#): 100
+exp_time     (sec): 0.01
+energy        (eV): 12.8
+det_dist      (mm): 600
