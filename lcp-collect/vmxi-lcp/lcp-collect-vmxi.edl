@@ -1,0 +1,1607 @@
+4 0 1
+beginScreenProperties
+major 4
+minor 0
+release 1
+x 684
+y 251
+w 700
+h 550
+font "arial-medium-r-18.0"
+ctlFont "arial-medium-r-18.0"
+btnFont "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 3
+textColor index 14
+ctlFgColor1 index 14
+ctlFgColor2 index 14
+ctlBgColor1 index 14
+ctlBgColor2 index 0
+topShadowColor index 0
+botShadowColor index 0
+endScreenProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 4
+y 356
+w 267
+h 45
+lineColor index 24
+fill
+fillColor index 20
+lineWidth 0
+alarmPv "BL02I-RS-ABSB-02:X.RBV"
+visPv "BL02I-RS-ABSB-02:X.RBV"
+visMin "-4"
+visMax "30"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 4
+y 404
+w 267
+h 45
+lineColor index 24
+fill
+fillColor index 20
+lineWidth 0
+alarmPv "BL02I-AL-APTR-01:X.RBV"
+visPv "BL02I-AL-APTR-01:X.RBV"
+visMin "-10"
+visMax "30"
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 4
+y 308
+w 267
+h 45
+lineColor index 24
+fill
+fillColor index 20
+lineWidth 0
+alarmPv "BL02I-MO-LIGHT-01:Y.RBV"
+visPv "BL02I-MO-LIGHT-01:Y.RBV"
+visMin "100"
+visMax "300"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 234
+y 6
+w 334
+h 32
+font "arial-medium-r-28.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "VMXI LCP Extruder"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 395
+y 73
+w 250
+h 39
+controlPv "BL02I-EA-IOC-12:GP1"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-medium-r-16.0"
+endObjectProperties
+
+# (Lines)
+object activeLineClass
+beginObjectProperties
+major 4
+minor 0
+release 1
+x 81
+y 207
+w 0
+h 0
+lineColor index 14
+fillColor index 14
+numPoints 1
+xPoints {
+  0 81
+}
+yPoints {
+  0 207
+}
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 346
+y 85
+w 32
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Visit"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 280
+y 122
+w 103
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Sub-directory"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 395
+y 112
+w 250
+h 39
+controlPv "BL02I-EA-IOC-12:GP2"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-medium-r-16.0"
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 395
+y 151
+w 250
+h 39
+controlPv "BL02I-EA-IOC-12:GP3"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-medium-r-16.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 312
+y 161
+w 71
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Filename"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 652
+y 86
+w 16
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "txt"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 652
+y 123
+w 16
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "txt"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 652
+y 162
+w 18
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "fid"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 286
+y 198
+w 97
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Num images"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 395
+y 190
+w 125
+h 39
+controlPv "BL02I-EA-IOC-12:GP4"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-medium-r-16.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 525
+y 202
+w 13
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "#"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 525
+y 239
+w 13
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "s"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 395
+y 228
+w 125
+h 39
+controlPv "BL02I-EA-IOC-12:GP5"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-medium-r-16.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 313
+y 238
+w 70
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Exp Time"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 590
+y 316
+w 28
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "mm"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 395
+y 267
+w 125
+h 39
+controlPv "BL02I-OP-ATTN-01:T2A:SETVAL1"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-medium-r-16.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 287
+y 318
+w 96
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Det distance"
+}
+autoSize
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 462
+y 391
+w 92
+h 49
+fgColor index 14
+bgColor index 16
+topShadowColor index 1
+botShadowColor index 11
+font "arial-medium-r-18.0"
+buttonLabel "Start"
+numCmds 1
+command {
+  0 "python /dls_sw/i24/scripts/quickshot/quickshot_manager-vmxi.py run"
+}
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 109
+y 72
+w 65
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Align Jet"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 145
+y 141
+w 40
+h 37
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-MO-IOC-08:ASYN8.AOUT"
+pressValue "#11J:-100"
+releaseValue "#11P"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 153
+y 148
+w 24
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "+X"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 93
+y 141
+w 40
+h 37
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-MO-IOC-08:ASYN8.AOUT"
+pressValue "#11J:100"
+releaseValue "#11P"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 104
+y 148
+w 20
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "-X"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 113
+y 100
+w 57
+h 37
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-MO-IOC-08:ASYN8.AOUT"
+pressValue "#4J:1000"
+releaseValue "#4P"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 125
+y 109
+w 23
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "+Y"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 107
+y 184
+w 57
+h 37
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-MO-IOC-08:ASYN8.AOUT"
+pressValue "#4J:-1000"
+releaseValue "#4P"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 125
+y 193
+w 19
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "-Y"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 138
+y 233
+w 57
+h 37
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-MO-IOC-08:ASYN8.AOUT"
+pressValue "#12J:750"
+releaseValue "#12P"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 147
+y 243
+w 39
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "OUT"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 68
+y 233
+w 57
+h 37
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-MO-IOC-08:ASYN8.AOUT"
+pressValue "#12J:-750"
+releaseValue "#12P"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 86
+y 243
+w 18
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "IN"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 652
+y 360
+w 27
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  ".inp"
+}
+autoSize
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 395
+y 306
+w 125
+h 39
+controlPv "BL02I-EA-IOC-12:GP7"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-medium-r-16.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 320
+y 358
+w 63
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Input file"
+}
+autoSize
+endObjectProperties
+
+# (Menu Mux)
+object menuMuxClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 102
+y 313
+w 150
+h 35
+fgColor index 14
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-MO-LIGHT-01:MP:SELECT"
+font "arial-medium-r-16.0"
+numItems 4
+symbolTag {
+  0 "In"
+  1 "Out"
+  2 "Diode"
+  3 "OAV2"
+}
+symbol0 {
+  0 "In"
+  1 "Out"
+  2 "Diode"
+  3 "OAV2"
+}
+value0 {
+  0 "In"
+  1 "Out"
+  2 "Diode"
+  3 "OAV2"
+}
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 14
+y 321
+w 69
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Backlight"
+}
+autoSize
+endObjectProperties
+
+# (Menu Mux)
+object menuMuxClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 102
+y 361
+w 150
+h 35
+fgColor index 14
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-RS-ABSB-02:MP:SELECT"
+font "arial-medium-r-16.0"
+numItems 6
+symbolTag {
+  0 "CheckBeam"
+  1 "Data Collection"
+  2 "Data Collection Far"
+  3 "Down and Out"
+  4 "Robot"
+  5 "Rotatable"
+}
+symbol0 {
+  0 "CheckBeam"
+  1 "Data Collection"
+  2 "Data Collection Far"
+  3 "Down and Out"
+  4 "Robot"
+  5 "Rotatable"
+}
+value0 {
+  0 "CheckBeam"
+  1 "Data Collection"
+  2 "Data Collection Far"
+  3 "Down and Out"
+  4 "Robot"
+  5 "Rotatable"
+}
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 14
+y 369
+w 77
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Beamstop"
+}
+autoSize
+endObjectProperties
+
+# (Menu Mux)
+object menuMuxClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 102
+y 409
+w 150
+h 35
+fgColor index 14
+bgColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-AL-APTR-01:MP:SELECT"
+font "arial-medium-r-16.0"
+numItems 2
+symbolTag {
+  0 "In"
+  1 "Out"
+}
+symbol0 {
+  0 "In"
+  1 "Out"
+}
+value0 {
+  0 "In"
+  1 "Out"
+}
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 417
+w 74
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Apertures"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 19
+y 59
+w 231
+h 222
+lineColor index 9
+fillColor index 14
+endObjectProperties
+
+# (Shell Command)
+object shellCmdClass
+beginObjectProperties
+major 4
+minor 3
+release 0
+x 358
+y 392
+w 92
+h 49
+fgColor index 14
+bgColor index 16
+topShadowColor index 1
+botShadowColor index 11
+font "arial-medium-r-18.0"
+buttonLabel "Initialise"
+numCmds 1
+command {
+  0 "python /dls_sw/i24/scripts/quickshot/quickshot_manager-vmxi.py initiate"
+}
+endObjectProperties
+
+# (Textentry)
+object TextentryClass
+beginObjectProperties
+major 10
+minor 0
+release 0
+x 395
+y 345
+w 250
+h 39
+controlPv "BL02I-EA-IOC-12:GP13"
+fgColor index 25
+fgAlarm
+bgColor index 3
+fill
+font "arial-medium-r-16.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 288
+y 279
+w 102
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Transmission"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 6
+release 0
+x 525
+y 278
+w 54
+h 18
+controlPv "BL02I-OP-ATTN-01:MATCH"
+format "decimal"
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+autoHeight
+precision 4
+nullColor index 14
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 581
+y 278
+w 115
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "(fraction not %)"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 6
+release 0
+x 525
+y 316
+w 55
+h 18
+controlPv "BL02I-EA-DET-01:Z.RBV"
+format "decimal"
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+autoHeight
+precision 2
+nullColor index 14
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 562
+y 391
+w 92
+h 49
+fgColor index 14
+onColor index 20
+offColor index 20
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-EA-IOC-12:GP8"
+pressValue "1"
+releaseValue "1"
+onLabel "Abort"
+offLabel "Abort"
+toggle
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 16
+y 473
+w 147
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "The hutch shutter is"
+}
+autoSize
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 6
+release 0
+x 170
+y 471
+w 103
+h 21
+controlPv "BL02I-PS-SHTR-01:STA"
+format "decimal"
+font "arial-medium-r-18.0"
+fgColor index 25
+bgColor index 14
+useDisplayBg
+autoHeight
+precision 2
+nullColor index 14
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 190
+y 141
+w 40
+h 37
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-MO-IOC-08:ASYN8.AOUT"
+pressValue "#11J:-300"
+releaseValue "#11P"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 198
+y 148
+w 19
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "x3"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 48
+y 141
+w 40
+h 37
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-MO-IOC-08:ASYN8.AOUT"
+pressValue "#11J:300"
+releaseValue "#11P"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 59
+y 148
+w 19
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "x3"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 623
+y 464
+w 53
+h 31
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-DI-OAV-01:CAM:GainAuto"
+pressValue "Once"
+onLabel "Gain"
+offLabel "Gain"
+3d
+font "arial-medium-r-16.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 495
+y 470
+w 122
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "On axis camera"
+}
+autoSize
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 297
+y 472
+w 71
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Ring light"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 372
+y 463
+w 53
+h 31
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-DI-LED-02:DOXCONTROL:CONTROL__OUTPUT"
+pressValue "ON"
+onLabel "On"
+offLabel "On"
+3d
+font "arial-medium-r-16.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 431
+y 463
+w 53
+h 31
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-DI-LED-02:DOXCONTROL:CONTROL__OUTPUT"
+pressValue "OFF"
+onLabel "Off"
+offLabel "Off"
+3d
+font "arial-medium-r-16.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 431
+y 499
+w 53
+h 31
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-DI-LED-01:DOXCONTROL:CONTROL__OUTPUT"
+pressValue "OFF"
+onLabel "Off"
+offLabel "Off"
+3d
+font "arial-medium-r-16.0"
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 372
+y 499
+w 53
+h 31
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-DI-LED-01:DOXCONTROL:CONTROL__OUTPUT"
+pressValue "ON"
+onLabel "On"
+offLabel "On"
+3d
+font "arial-medium-r-16.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 295
+y 507
+w 74
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "Back light"
+}
+autoSize
+endObjectProperties
+
+# (Rectangle)
+object activeRectangleClass
+beginObjectProperties
+major 4
+minor 0
+release 0
+x 6
+y 455
+w 683
+h 82
+lineColor index 9
+fillColor index 14
+endObjectProperties
+
+# (Text Monitor)
+object activeXTextDspClass:noedit
+beginObjectProperties
+major 4
+minor 6
+release 0
+x 169
+y 504
+w 103
+h 21
+controlPv "BL02I-EA-SHTR-01:STA"
+format "decimal"
+font "arial-medium-r-18.0"
+fgColor index 25
+bgColor index 14
+useDisplayBg
+autoHeight
+precision 2
+nullColor index 14
+useHexPrefix
+newPos
+objType "monitors"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 15
+y 506
+w 134
+h 18
+font "arial-medium-r-16.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "The fast shutter is"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 199
+y 233
+w 38
+h 37
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-MO-IOC-08:ASYN8.AOUT"
+pressValue "#12J:3750"
+releaseValue "#12P"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 208
+y 240
+w 19
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "x5"
+}
+autoSize
+endObjectProperties
+
+# (Message Button)
+object activeMessageButtonClass
+beginObjectProperties
+major 4
+minor 1
+release 0
+x 28
+y 233
+w 37
+h 37
+fgColor index 14
+onColor index 3
+offColor index 3
+topShadowColor index 1
+botShadowColor index 11
+controlPv "BL02I-MO-IOC-08:ASYN8.AOUT"
+pressValue "#12J:-3750"
+releaseValue "#12P"
+3d
+font "arial-medium-r-18.0"
+endObjectProperties
+
+# (Text w. Reg. Exp.)
+object activeXRegTextClass
+beginObjectProperties
+major 4
+minor 1
+release 1
+x 38
+y 241
+w 19
+h 21
+font "arial-medium-r-18.0"
+fgColor index 14
+bgColor index 14
+useDisplayBg
+value {
+  "x5"
+}
+autoSize
+endObjectProperties
+
